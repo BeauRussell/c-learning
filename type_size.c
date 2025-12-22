@@ -16,4 +16,5 @@ int main(void) {
  printf("float: %zu\n", sizeof(float));
  printf("double: %zu\n", sizeof(double));
  printf("long double: %zu\n", sizeof(long double));
+ printf("pointer: %zu\n", sizeof(int*));
 }
