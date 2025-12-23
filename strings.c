@@ -9,4 +9,8 @@ int main (void) {
 
 	printf("%s\n", s);
 	printf("The string is %zu bytes long.\n", strlen(s));
+
+	char t[14];
+
+	strcpy(t, s);
 }
