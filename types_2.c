@@ -14,4 +14,9 @@ int main(void) {
 	char f;
 	signed char g;
 	unsigned char h;
+
+	long long int i;
+	long long j;
+	short  k;
+	long l;
 }
