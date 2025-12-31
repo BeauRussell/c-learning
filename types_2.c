@@ -42,4 +42,29 @@ int main(void) {
 	printf("Double Decimal Digits: %d\n", DBL_DECIMAL_DIG);
 	printf("Long Double Decimal Digits: %d\n", LDBL_DECIMAL_DIG);
 	printf("Largest Decimal Digits: %d\n", LDBL_DECIMAL_DIG);
+
+	int p = 0x1A2B; // Hexadecimal
+	int q = 0x1a2b;
+
+	printf("%x\n", p);
+
+	int r = 012; // octal
+	printf("%o\n", r);
+
+	int s = 0b10101010; // Unofficially binary, but compiles
+	// no way to print binary, you'd have to print 1 it at a time using bitwise
+	// printf will print the int version
+
+	// Force constant to be a certain type with a suffix. But lesser used
+	long int t = 1234LL;
+
+	// unsuffixed floats default to double
+	float u = 3.14; // double
+	float v = 3.14f; // float
+
+	// Floats are scientific notication - literal
+	double w = 123.456e+3;
+
+	// Hexadecimal Floats
+	double x = 0xa.1p3;
 }
