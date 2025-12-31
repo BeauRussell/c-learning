@@ -31,4 +31,15 @@ int main(void) {
 	float m;
 	double n;
 	long double o;
+
+	// These are the minimum significant digits that will be printed SAFELY
+	printf("Float Digits: %d\n", FLT_DIG);
+	printf("Double Digits: %d\n", DBL_DIG);
+	printf("Long Double Digits: %d\n", LDBL_DIG);
+
+	// Safe significant digits in actual use
+	printf("Float Decimal Digits: %d\n", FLT_DECIMAL_DIG);
+	printf("Double Decimal Digits: %d\n", DBL_DECIMAL_DIG);
+	printf("Long Double Decimal Digits: %d\n", LDBL_DECIMAL_DIG);
+	printf("Largest Decimal Digits: %d\n", LDBL_DECIMAL_DIG);
 }
