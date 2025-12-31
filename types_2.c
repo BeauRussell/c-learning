@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <float.h>
 
 int main(void) {
 	int a;
@@ -19,4 +20,15 @@ int main(void) {
 	long long j;
 	short  k;
 	long l;
+
+	// Floats
+	// Stored in scientific notation
+	// "significand" + exponent
+	// Ex: 12345 x 10^-3, 12345 and -3 are the pieces stored
+	// Likely uses 2 instead of 10, but computer dependent
+	
+	// Sizeof needs to take into account size AND significant digits
+	float m;
+	double n;
+	long double o;
 }
